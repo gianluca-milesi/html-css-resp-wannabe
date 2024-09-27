@@ -31,7 +31,7 @@
 
     /* Header */
     .site-header {
-        min-width: 480px;
+        min-width: 100%;
     }
 
     /* Main */
@@ -50,7 +50,7 @@
 
     /* Steps */
     .steps.text-center {
-        min-width: 480px;
+        min-width: 100%;
         margin-bottom: 0;
     }
 
@@ -64,9 +64,9 @@
 
     /* Why us */
     .why-us {
-        width: 480px;
+        min-width: 100%;
         background-color: rgb(34, 34, 34);
-        padding: 3rem;
+        padding: 3rem 0;
         margin-bottom: 0;
     }
 

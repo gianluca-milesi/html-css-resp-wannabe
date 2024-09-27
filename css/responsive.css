@@ -1,6 +1,13 @@
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
     .container {
         width: 768px;
     }
-}
 
+    .text-center {
+        min-width: 768px;
+    }
+
+    .steps .text-center {
+        min-width: 768px;
+    }
+}

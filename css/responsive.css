@@ -18,10 +18,12 @@
         font-size: 10px;
     } */
 
+    /* Header */
     .site-header {
         min-width: 480px;
     }
 
+    /* Lessons */
     .container {
         width: 400px;
     }
@@ -38,4 +40,18 @@
     .lessons .col:nth-child(1){
         margin-bottom: 60px;
     }
+
+    /* Steps */
+    .steps.text-center {
+        min-width: 480px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col:not(:last-child){
+        margin-bottom: 60px;
+    }
+
 }

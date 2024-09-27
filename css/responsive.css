@@ -18,14 +18,10 @@
         font-size: 10px;
     } */
 
-    /* Header */
-    .site-header {
-        min-width: 480px;
-    }
-
-    /* Lessons */
+    /* Layout */
     .container {
         width: 400px;
+        margin: 0 auto;
     }
 
     .row {
@@ -33,25 +29,53 @@
         align-items: center;
     }
 
+    /* Header */
+    .site-header {
+        min-width: 480px;
+    }
+
+    /* Main */
+    /* Lessons */
+    .lessons .h2 {
+        text-align: center;
+    }
+
     .lessons .col {
         width: 100%;
     }
 
-    .lessons .col:nth-child(1){
+    .lessons .col:nth-child(1) {
         margin-bottom: 60px;
     }
 
     /* Steps */
     .steps.text-center {
         min-width: 480px;
+        margin-bottom: 0;
     }
 
     .steps .col {
         width: 100%;
     }
 
-    .steps .col:not(:last-child){
+    .steps .col:not(:last-child) {
         margin-bottom: 60px;
     }
 
+    /* Why us */
+    .why-us {
+        width: 480px;
+        background-color: rgb(34, 34, 34);
+        padding: 3rem;
+        margin-bottom: 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
 }
